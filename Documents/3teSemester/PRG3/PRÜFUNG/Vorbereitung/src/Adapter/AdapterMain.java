@@ -1,7 +1,7 @@
 package Adapter;
 
 public class AdapterMain {
-
+//new comment
     public static void main(String[] args){
         ShapeList shapeList = new ShapeList();
         shapeList.addShape(new ShapeAdapter(new Circle("Circle1", 10)));
@@ -10,5 +10,6 @@ public class AdapterMain {
         shapeList.addShape(new ShapeAdapter(new Line("Line1", 14)));
 
         shapeList.draw();
+
     }
 }
